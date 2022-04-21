@@ -27,6 +27,6 @@ mod test {
 
     #[test]
     fn test_sub_with_negative() {
-        assert_eq!(sub(-15, -7), -8)
+        assert_eq!(sub(-15, -7), -8);
     }
 }
