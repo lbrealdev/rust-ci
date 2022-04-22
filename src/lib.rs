@@ -6,6 +6,10 @@ pub fn sub(a: i32, b: i32) -> i32 {
     a - b
 }
 
+pub fn mult(a: i32, b: i32) -> i32 {
+    a * b
+}
+
 #[cfg(test)]
 mod test {
     use super::*;
@@ -28,5 +32,15 @@ mod test {
     #[test]
     fn test_sub_with_negative() {
         assert_eq!(sub(-15, -7), -8);
+    }
+
+    #[test]
+    fn test_mult() {
+        assert_eq!(mult(3, 5), 15);
+    }
+
+    #[test]
+    fn test_mult_with_negative() {
+        assert_eq!(mult(-3, -5), 15);
     }
 }
