@@ -36,7 +36,7 @@ mod test {
 
     #[test]
     fn test_mult() {
-        assert_eq!(mult(3, 5), 15);
+        assert_eq!(mult(5, 7), 35);
     }
 
     #[test]
